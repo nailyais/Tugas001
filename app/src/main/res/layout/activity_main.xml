@@ -29,12 +29,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
-            android:text="Nama" />
+            android:text="Nama"
+            android:id="@+id/edittext" />
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.7"
-            android:id="@+id/editText"/>
+            android:id="@+id/edittextnama"/>
     </LinearLayout>
 
     <LinearLayout
@@ -81,13 +82,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Laki-Laki"
-                android:id="@+id/radioButtonBM" />
+                android:id="@+id/radiobutton1" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Perempuan"
-                android:id="@+id/radioButtonM" />
+                android:id="@+id/radiobutton2" />
 
         </RadioGroup>
 
@@ -110,32 +111,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Multimedia"
-            android:id="@+id/checkBoxBC"
+            android:id="@+id/cb1"
             android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RPL"
-            android:id="@+id/checkBoxOR" />
+            android:id="@+id/cb2" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TKJ"
-            android:id="@+id/checkBoxGB" />
+            android:id="@+id/cb3" />
 
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TJA"
-            android:id="@+id/checkBoxNL" />
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="PB"
-            android:id="@+id/checkBoxNF" />
     </LinearLayout>
 
     <Button
@@ -143,5 +133,11 @@
         android:layout_height="wrap_content"
         android:text="Simpan"
         android:id="@+id/button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textviewhasil" />
 
 </LinearLayout>
