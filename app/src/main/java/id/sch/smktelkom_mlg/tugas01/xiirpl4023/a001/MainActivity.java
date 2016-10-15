@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         if(cb2.isChecked()) jurusan+=cb2.getText()+"\n";
         if(cb3.isChecked()) jurusan+=cb3.getText()+"\n";
         if (jurusan.length()==staetlen) jurusan+="Tidak ada pilihan";
-        tvHasil.setText("nama : " +nama+"\nUmur: "+umur+ "\nJenis Kelamin :" +jeniskel+"\nJurusan : " +jurusan);
+        tvHasil.setText("nama : " +nama+"\nUmur: "+umur+ "\nJenis Kelamin:" +jeniskel+"\nJurusan : " +jurusan);
     }
 
 
